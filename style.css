@@ -11,8 +11,18 @@ Updated: 2023-05-08 09:49:06
 
 */
 
+.forsiderow {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
 
 #searchform input {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.tandlægeskræk {
+    text-align: center;
+    font-size: 20px;
 }
