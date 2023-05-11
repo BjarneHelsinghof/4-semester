@@ -1,14 +1,13 @@
 <?php get_header() ?>
 
-<body>
+<div class="main">
+    <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post() ?>
+            <?php the_content() ?>
+        <?php endwhile; ?>
+    <?php else : ?>
+        <p>Sorry, we did not find any content to show here.</p>
+    <?php endif; ?>
+</div>
 
-    <?php while (have_posts()) : the_post() ?>
-        <h2><?php the_field("forside_overskrift"); ?></h2>
-        <p><?php the_field("forside_brodtekst"); ?></p>
-        </div>
-
-    <?php endwhile ?>
-    <?php get_footer(); ?>
-</body>
-
-</html>
+<?php get_footer(); ?>
