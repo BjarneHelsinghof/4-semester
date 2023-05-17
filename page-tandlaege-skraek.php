@@ -11,7 +11,7 @@ get_header();
 
         <h2><?php the_field("tandlaegeskraek_overskrift"); ?></h2>
         <br>
-        <img id="tandlaegeskraek_hero" width="20%" src="<?php the_field("tandlaegeskraek_hero") ?>" alt="tandlægeskræk hero">
+        <img class="img-fouild rounded w-50 mb-3" src="http://kissow-skalhoj.local/wp-content/uploads/2023/05/teeth-cleaning-g4439f5cdb_1920.jpg" alt="tandlægeskræk_hero">
         <p><?php the_field("tandlaegeskraek_brodtekst"); ?></p>
         <p><?php the_field("tandlaegeskraek_brodtekst2"); ?></p>
         <p><?php the_field("tandlaegeskraek_brodtekst3"); ?></p>
@@ -34,7 +34,7 @@ get_header();
         <p><?php the_field("5_gode_rad_mod_tandlaege_skraek_brodtekst4"); ?></p>
         <br>
         <p><?php the_field("5_gode_rad_mod_tandlaege_skraek_brodtekst5"); ?></p>
-
+        <br>
     <?php endwhile; // end of the loop. 
     ?>
 </div>

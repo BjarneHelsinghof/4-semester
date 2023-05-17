@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Template Name: home
+ * Template Name: forside
  */
 
 get_header();
 
 ?>
-<div class="home">
+<div class="forsiderow">
     <?php while (have_posts()) : the_post(); ?>
 
         <h2><?php the_field("forside_overskrift"); ?></h2>
@@ -19,6 +19,7 @@ get_header();
         <br>
         <p><?php the_field("forside_brodtekst5"); ?></p>
         <p><?php the_field("forside_brodtekst6"); ?></p>
+        <br>
 
     <?php endwhile; // end of the loop. 
     ?>

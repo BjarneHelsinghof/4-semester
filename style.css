@@ -15,7 +15,9 @@ Updated: 2023-05-08 09:49:06
     margin: 0 auto;
     max-width: 940px;
     padding: 0 10px;
+    background-color: white;
 }
+
 
 #searchform input {
     font-size: 1.5em;
@@ -51,6 +53,303 @@ Updated: 2023-05-08 09:49:06
     text-align: center;
 }
 
+.row {
+    text-align: center;
+}
+
 .container {
     text-align: center;
+}
+
+.personale {
+    text-align: center;
+}
+
+.rabat {
+    background-color: aquamarine;
+}
+
+.site-footer {
+    background-color: #000000;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links,
+.footer-åbningstider {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text {
+        text-align: center
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ticket-height: 60px;
+    --color-blue: lightblue;
+    --color-orange: salmon;
+    --color-green: greenyellow;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+#team i {
+    font-size: 26px;
+    color: #555;
+}
+
+#team p {
+    font-weight: 500;
+}
+
+#team .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover {
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#team .card:hover h3,
+#team .card:hover i {
+    color: #fff;
+}
+
+.section-prices {
+    padding: 1.5rem 1rem;
+}
+
+.section-prices .section-header {
+    background-color: black;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: #555;
+    font-weight: 700;
+    box-shadow: 0 10px 35px -10px rgba(0, 0, 0, .3);
+}
+
+.list-boxs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-boxs .card {
+    width: 32%;
+    text-align: center;
+    position: relative;
+    max-width: 300px;
+}
+
+.list-boxs .card .head,
+.list-boxs .card .body {
+    background-color: #FFF;
+    padding: 1.5rem 1rem;
+}
+
+.list-boxs .card .head {
+    color: #333;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transform: translateY(30px);
+    transition: transform .3s linear;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.list-boxs .card:hover .head {
+    transform: translateY(0);
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, .1);
+}
+
+.list-boxs .card .ticket {
+    color: #FFF;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: var(--ticket-height);
+    box-shadow: inset 0px 6px 6px -5px rgba(0, 0, 0, .25),
+        inset 0px -6px 6px -5px rgba(0, 0, 0, .25);
+}
+
+.list-boxs .starter .ticket {
+    background-color: var(--color-green);
+}
+
+.list-boxs .standard .ticket {
+    background-color: var(--color-blue);
+}
+
+.list-boxs .premium .ticket {
+    background-color: var(--color-orange);
+}
+
+.list-boxs .card .body {
+    transform: translateY(-30px);
+    transition: transform .3s linear;
+}
+
+.list-boxs .card:hover .body {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.list-boxs .card p {
+    font-size: .95rem;
+    color: #333;
+    text-align: justify;
+}
+
+.list-boxs .card .btn {
+    margin-top: 2rem;
+    padding: .6rem 1rem;
+    outline: none;
+    font-size: .85rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    min-width: 160px;
+    border: 1px solid #555;
+    background-color: #555;
+    color: #333;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.list-boxs .card .btn:hover {
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .15);
+}
+
+.list-boxs .starter .btn {
+    background: var(--color-green);
+    border-color: var(--color-green);
+}
+
+.list-boxs .standard .btn {
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+}
+
+.list-boxs .premium .btn {
+    background: var(--color-orange);
+    border-color: var(--color-orange);
+}
+
+
+@media screen and (max-width: 750px) {
+    .list-boxs {
+        justify-content: space-around;
+    }
+
+    .list-boxs .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .list-boxs .card {
+        width: 95%;
+    }
 }
