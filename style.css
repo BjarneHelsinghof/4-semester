@@ -13,15 +13,8 @@ Updated: 2023-05-08 09:49:06
 
 .forsiderow {
     margin: 0 auto;
-    max-width: 940px;
-    padding: 0 10px;
+    max-width: auto padding: 0 10px;
     background-color: white;
-}
-
-
-#searchform input {
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 .tandlægeskræk {
@@ -44,17 +37,40 @@ Updated: 2023-05-08 09:49:06
     font-size: 20px;
 }
 
-.kontakt-os {
+.om_os_container {
     text-align: center;
     font-size: 20px;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    background-color: white;
+}
+
+.tandlægeskræk-col-md-12 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    background-color: white;
+}
+
+.kontakt-os-row {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: auto;
+    padding: 0 10px;
+    background-color: white;
 }
 
 .priser_row {
     text-align: center;
 }
 
-.row {
+.row_team {
     text-align: center;
+    background-color: #14213d;
 }
 
 .container {
@@ -89,7 +105,7 @@ Updated: 2023-05-08 09:49:06
 .site-footer h6 {
     color: #fff;
     font-size: 16px;
-    font-family: system-ui, -apple-system, Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
     margin-top: 5px;
     letter-spacing: 2px
@@ -162,7 +178,7 @@ Updated: 2023-05-08 09:49:06
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: black;
@@ -246,7 +262,7 @@ h3 {
 
 .list-boxs .card .head,
 .list-boxs .card .body {
-    background-color: #FFF;
+    background-color: #fca311;
     padding: 1.5rem 1rem;
 }
 
@@ -309,7 +325,7 @@ h3 {
     padding: .6rem 1rem;
     outline: none;
     font-size: .85rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 500;
     min-width: 160px;
     border: 1px solid #555;

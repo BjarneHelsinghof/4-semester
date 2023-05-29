@@ -6,7 +6,7 @@
 get_header();
 
 ?>
-<div class="tandlægeskræk col-md-12">
+<div class="tandlægeskræk-col-md-12">
     <?php while (have_posts()) : the_post(); ?>
 
         <h2><?php the_field("tandlaegeskraek_overskrift"); ?></h2>
