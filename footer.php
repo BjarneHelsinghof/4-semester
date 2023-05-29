@@ -27,9 +27,9 @@
             <div class="col-xs-6 col-md-3">
                 <h6>Hurtige links</h6>
                 <ul class="footer-links">
-                    <li><a href="http://kissow-skalhoj.local/behandlinger/">Behandlinger</a></li>
-                    <li><a href="http://kissow-skalhoj.local/priser/">Priser</a></li>
-                    <li><a href="http://kissow-skalhoj.local/tandlaege-skraek/">Tandlægeskræk</a></li>
+                    <li><a href="https://bjarne-helsinghof.dk/kissow/kontakt-os/">Kontakt os</a></li>
+                    <li><a href="https://bjarne-helsinghof.dk/kissow/priser/">Priser</a></li>
+                    <li><a href="https://bjarne-helsinghof.dk/kissow/tandlaege-skraek/">Tandlægeskræk</a></li>
                 </ul>
             </div>
         </div>
